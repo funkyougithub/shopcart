@@ -1,0 +1,60 @@
+{
+	"kategorien":[
+		{"id":"1", "name":"Wellness"},
+		{"id":"2", "name":"Kellergassen"},
+		{"id":"3", "name":"Lifestyle"}
+	],
+	
+	"produkte":[
+		{
+		"id": "1",
+		"name": "Tauern SPA",
+		"categoryid": "1",
+		"price": "25",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Moselle_Pont-a-Mousson.jpg"
+		},
+		{
+		"id": "2",
+		"name": "Seilspringen",
+		"categoryid": "3",
+		"price": "50",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+		},
+		{
+		"id": "3",
+		"name": "Schloss Gamlitz",
+		"categoryid": "2",
+		"price": "75",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+		},
+		{
+		"id": "4",
+		"name": "Therme Geinberg",
+		"categoryid": "1",
+		"price": "100",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+		}
+	],  
+  
+  "testdata": [
+    {
+	"id": 1,
+	"firstName": "Yehuda",
+	"lastName": "Katz",
+	"occupation": "President"
+    },
+    {
+	"id": 2,
+	"firstName": "Yehuda2",
+	"lastName": "Katz2",
+	"occupation": "President2"
+    },
+    {
+	"id": 3,
+	"firstName": "Yehuda3",
+	"lastName": "Katz3",
+	"occupation": "President3"
+    }
+  ]
+  
+}

@@ -1,0 +1,12 @@
+<h1>WARENKORB</h1>
+
+{{#each model as |cart|}}
+  <article>
+    {{#link-to "item" cart}}
+	<h3>{{cart.id}} {{cart.item.name}}</h3>
+    <div class="detail owner">
+      <span>Anzahl:</span> {{cart.anzahl}}
+    </div>
+	{{/link-to}}
+  </article>
+{{/each}}

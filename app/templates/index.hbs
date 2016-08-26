@@ -1,0 +1,15 @@
+<button {{action "pressMe"}}>COOKIE</button>
+
+<h1>ember.js {{hallo}}</h1>
+
+{{#each model as |fisherman|}}
+  <article>
+    <h3>{{fisherman.name}}</h3>
+    <div class="detail owner">
+      <span>Owner:</span> {{fisherman.preis}}
+    </div>
+    <div class="detail owner">
+      <span>Owner:</span> {{fisherman.team}}
+    </div>
+  </article>
+{{/each}}

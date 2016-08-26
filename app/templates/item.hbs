@@ -1,0 +1,17 @@
+<button {{action "warenkorb_add" model}}>In den Warenkorb</button>
+
+<h1>Produkt Detail</h1>
+
+  <article>
+	<h3>{{model.name}}</h3>
+    <div class="detail owner">
+      <span>Preis:</span> {{model.price}}
+    </div>
+    <div class="detail owner">
+      <span>Kategorie:</span> {{model.categoryid.name}}
+    </div>
+	<div class="detail owner">
+      <img src="{{model.image}}" style="width: 200px">
+    </div>
+  </article>
+

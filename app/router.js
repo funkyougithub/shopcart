@@ -7,6 +7,16 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+	
+	this.route('items');
+	this.route('item', { path: '/item/:item_id' } );
+	this.route('cart');
+	/*
+	this.route('items', function(){
+		this.route('item', { path: '/:item_id' }); // = nested route
+	}
+	*/
+
 });
 
 export default Router;
