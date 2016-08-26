@@ -1,11 +1,11 @@
 <h1>WARENKORB</h1>
 
-{{#each model as |cart|}}
+{{#each model.orderItems as |orderItem|}}
   <article>
-    {{#link-to "item" cart}}
-	<h3>{{cart.id}} {{cart.item.name}}</h3>
+    {{#link-to "item" orderItem.item}}
+	<h3>{{orderItem.item.id}} {{orderItem.item.name}}</h3>
     <div class="detail owner">
-      <span>Anzahl:</span> {{cart.anzahl}}
+      <span>Anzahl:</span> {{orderItem.amount}}
     </div>
 	{{/link-to}}
   </article>
